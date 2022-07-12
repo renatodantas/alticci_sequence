@@ -8,7 +8,7 @@ Requer o NodeJS 16.x instalado.
 
 ## Execução
 
-Para executar o frontend, execute os comandos abaixo no terminal (requer NodeJS 16.x):
+Para executar o frontend, execute os comandos abaixo no terminal:
 * `npm install`
 * `npm start`
 
