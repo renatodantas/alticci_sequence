@@ -1,0 +1,13 @@
+<h1>Sequência de Alticci</h1>
+
+
+<input type="number" #numero placeholder="Número" />
+<input 
+  type="button" 
+  value="Calcular sequência" 
+  style="margin-left: 1rem;" 
+  (click)="calcular(numero.value)">
+
+<div style="margin-top: 2rem;" *ngIf="sequencia">
+  Sequência encontrada: <strong>{{ sequencia | async }}</strong>
+</div>
